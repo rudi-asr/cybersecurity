@@ -1,5 +1,6 @@
 1.  Online training menggunakan OS Linux Desktop (praktek di full OS Linux), diharapkan peserta sudah menginstall OSnya. Sistem operasi Linux Desktop yang digunakan bebas, bisa dual boot/single OS linux.
-2. Download aplikasi pendungkung seperti,
+2. download parrot os : https://mirror.math.princeton.edu/pub/parrot/iso/testing/
+3. Download aplikasi pendungkung seperti,
 - Virtualbox dan VirtualBox Extension Pack : https://www.virtualbox.org/wiki/Linux_Downloads
 
 - Vagrant : 
@@ -21,4 +22,7 @@ end
 vagrant init kalilinux/rolling
 vagrant up
 vagrant ls
+vagrant ssh
 
+#exit dari mesin vm
+vagrant halt

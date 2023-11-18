@@ -1,0 +1,25 @@
+1.  Online training menggunakan OS Linux Desktop (praktek di full OS Linux), diharapkan peserta sudah menginstall OSnya. Sistem operasi Linux Desktop yang digunakan bebas, bisa dual boot/single OS linux.
+2. Download aplikasi pendungkung seperti,
+- Virtualbox dan VirtualBox Extension Pack : https://www.virtualbox.org/wiki/Linux_Downloads
+
+- Vagrant : 
+- https://developer.hashicorp.com/vagrant/install  
+mkdir vagrant-kali-linux
+cd vagrant-kali-linux
+sudo apt update && sudo apt install vagrant
+
+nano vgrantfile
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "kalilinux/rolling"
+  config.vm.network "forwarded_port", guest: 22, host: 2222, id: "ssh"
+  config.vm.provider "virtualbox" do |vb|
+    vb.memory = "2048"
+  end
+end
+
+
+vagrant up
+vagrant init kalilinux/rolling
+vagrant ls
+

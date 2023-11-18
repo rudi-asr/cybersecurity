@@ -1,5 +1,6 @@
-1.  Online training menggunakan OS Linux Desktop (praktek di full OS Linux), diharapkan peserta sudah menginstall OSnya. Sistem operasi Linux Desktop yang digunakan bebas, bisa dual boot/single OS linux.
+1.  Online training menggunakan OS Linux Desktop (praktek di full OS Linux), diharapkan peserta sudah menginstall OSnya di laptop. Sistem operasi Linux Desktop yang digunakan bebas, bisa dual boot/single OS linux.
 2. download parrot os : https://mirror.math.princeton.edu/pub/parrot/iso/testing/
+3. Download Kali os : https://www.kali.org/get-kali/#kali-virtual-machines 
 3. Download aplikasi pendungkung seperti,
 - Virtualbox dan VirtualBox Extension Pack : https://www.virtualbox.org/wiki/Linux_Downloads
 
@@ -19,10 +20,25 @@ Vagrant.configure("2") do |config|
   end
 end
 
-vagrant init kalilinux/rolling
-vagrant up
-vagrant ls
-vagrant ssh
+sudo vagrant init kalilinux/rolling
+sudo vagrant up
+sudo vagrant ls
+sudo vagrant ssh
 
 #exit dari mesin vm
+vagrant -h
 vagrant halt
+vagrant reload
+
+vagrant global-status
+vagrant destroy 4dcef6a
+
+ps aux | grep -E 'vagrant|ruby'
+
+tambah user di vagrant : https://stackoverflow.com/questions/22643177/ssh-onto-vagrant-box-with-different-username 
+
+atur mem dan cpu vagrant : https://stackoverflow.com/questions/12308149/how-do-i-increase-the-ram-and-set-up-host-only-networking-in-vagrant
+
+custom ssh port : https://stackoverflow.com/questions/55332816/how-to-set-vagrants-host-ssh-port
+
+custom bridge/interface adapter : https://stackoverflow.com/questions/16816444/vagrant-how-to-set-network-type-so-that-its-attached-to-bridge-adapter-on-virtua

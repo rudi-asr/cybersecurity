@@ -18,8 +18,7 @@ Vagrant.configure("2") do |config|
   end
 end
 
-
-vagrant up
 vagrant init kalilinux/rolling
+vagrant up
 vagrant ls
 

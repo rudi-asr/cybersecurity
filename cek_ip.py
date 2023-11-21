@@ -12,9 +12,9 @@
 # - default password parrot = parrot
 
 ####################################################################################
-#cek.py
+#cek_ip.py
 ####################################################################################
-
+# fungsi socket untuk komunikasi jaringan, client-server
 import socket
 
 hostname = input('Masukkan alamat Domain: ')
@@ -22,6 +22,9 @@ ip_address = socket.gethostbyname(hostname)
 
 print(f'Nama Domain: {hostname}')
 print(f'Alamat IP Add: {ip_address}')
+
+# running, $ python3 cek.py
+
 
 
     

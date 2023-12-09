@@ -1,0 +1,123 @@
+    "linux-training-centos-server-fasttrack": {
+      "name": "Linux - Training CentOS Server FastTrack",
+      "description": "Centos (Community Enterprise Operation System) merupakan Distro Linux yang telah digunakan untuk skala Enterprise atau perusahaan secara gratis atau bebas biaya. Centos berasal dari source code Red Hat yang saat ini telah banyak digunakan oleh banyak perusahaan yang dikembangkan oleh sebuah komunitas yang disebut Centos project.",
+      "syllabus": [
+        "Linux Introduction",
+        {
+          "subtopics": ["What is CentOS Server?", "Linux Distributions"]
+        },
+        "Installation & Configuration",
+        {
+          "subtopics": [
+            "CentOS Installation",
+            "Basic Linux Command",
+            "Deleting, Moving, Renaming, Copying Files",
+            "File & Directory Permission",
+            "Install with Package Manager"
+          ]
+        },
+        "Linux System Administration",
+        {
+          "subtopics": [
+            "SSH Server",
+            "DNS Server",
+            "FTP Server",
+            "WEB Server",
+            "Firewall"
+          ]
+        }
+      ],
+      "price": 2500000,
+      "duration": "24 Jam (3 Kali Pertemuan) Waktu : 09.00 - 17.00 WIB",
+      "facilities": [
+        "Modul Training",
+        "Sertifikat Training",
+        "Full AC",
+        "Free Lunch and Coffee Break",
+        "Gratis konsultasi (Class Group)"
+      ],
+      "icon": "fa-solid fa-terminal",
+      "imgUrl": "/images/centos-logo.png"
+    },
+    "linux-training-debian-server-fasttrack": {
+      "name": "Linux - Training Debian Server FastTrack",
+      "description": "Debian server merupakan sistem operasi berbasis open source yang dikembangkan secara terbuka dan merupakan distro linux yang populer dengan kestabilannya.",
+      "syllabus": [
+        "Linux Introduction",
+        {
+          "subtopics": ["What is Debian Server?", "Linux Distributions"]
+        },
+        "Installation & Configuration",
+        {
+          "subtopics": [
+            "Debian Installation",
+            "Basic Linux Command",
+            "Deleting, Moving, Renaming, Copying Files",
+            "File & Directory Permission",
+            "Install with Package Manager"
+          ]
+        },
+        "Linux System Administration",
+        {
+          "subtopics": [
+            "SSH Server",
+            "DNS Server",
+            "FTP Server",
+            "WEB Server",
+            "Firewall"
+          ]
+        }
+      ],
+      "price": 2500000,
+      "duration": "24 Jam (3 Kali Pertemuan) Waktu : 09.00 - 17.00 WIB",
+      "facilities": [
+        "Modul Training",
+        "Sertifikat Training",
+        "Full AC",
+        "Free Lunch and Coffee Break",
+        "Gratis konsultasi (Class Group)"
+      ],
+      "icon": "fa-solid fa-terminal",
+      "imgUrl": "/images/debian-logo.png"
+    },
+    "linux-training-ubuntu-server-fasttrack": {
+      "name": "Linux - Training Ubuntu Server FastTrack",
+      "description": "Ubuntu server merupakan turunan dari distro Debian yang sangat mudah digunakan, handal, stabil dan aman.",
+      "syllabus": [
+        "Linux Introduction",
+        {
+          "subtopics": ["What is Ubuntu Server?", "Linux Distributions"]
+        },
+        "Installation & Configuration",
+        {
+          "subtopics": [
+            "Ubuntu Installation",
+            "Basic Linux Command",
+            "Deleting, Moving, Renaming, Copying Files",
+            "File & Directory Permission",
+            "Install with Package Manager"
+          ]
+        },
+        "Linux System Administration",
+        {
+          "subtopics": [
+            "SSH Server",
+            "DNS Server",
+            "FTP Server",
+            "WEB Server",
+            "Firewall"
+          ]
+        }
+      ],
+      "price": 2500000,
+      "duration": "24 Jam (3 Kali Pertemuan) Waktu : 09.00 - 17.00 WIB",
+      "facilities": [
+        "Modul Training",
+        "Sertifikat Training",
+        "Full AC",
+        "Free Lunch and Coffee Break",
+        "Gratis konsultasi (Class Group)"
+      ],
+      "icon": "fa-solid fa-terminal",
+      "imgUrl": "/images/ubuntu-logo.png"
+    }
